@@ -1,0 +1,4 @@
+dn: uid=%%USER%%,cn=users,cn=accounts,dc=example,dc=com
+changetype: modify
+replace: krbpasswordexpiration
+krbPasswordExpiration: %%EXPIRATIONDATE%%
